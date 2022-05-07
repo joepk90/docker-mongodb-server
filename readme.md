@@ -58,3 +58,7 @@ mongodb://root:root@localhost:27017
 | USER | root |
 | PASSWORD | root |
 | PORT | 27017 |
+
+
+## extra resources
+https://dev.to/sonyarianto/how-to-spin-mongodb-server-with-docker-and-docker-compose-2lef
