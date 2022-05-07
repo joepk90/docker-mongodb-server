@@ -1,0 +1,5 @@
+# This directory is where you can export your databases too.
+# Databases can be exported from within the docker container.
+# See the readme.md file for the correct commands.
+# The files in this directory should be ignored by git.
+# However this file is tracked in order for git to recognise the directory.

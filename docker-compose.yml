@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  mongodb:
+    image: mongo:5.0.8
+    container_name: docker_mongodb_server
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      # MONGO_INITDB_DATABASE: docker_mongodb_database # not working
+    ports:
+      - 27017:27017
+    volumes:
+      - ./databases:/databases
+      - docker_mongodb_server:/data/db
+
+volumes:
+  docker_mongodb_server:
